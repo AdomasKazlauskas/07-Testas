@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
 .page {
     margin: 0;
     background-color: #74C69D;
 }
 
 .top {
-    background-color: #74C69D;
     height: 586px;
     width: 100%;
     align-items: center;
@@ -16,11 +18,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 0;
-    gap: 654px;
     position: relative;
     --w: 1175px;
     width: var(--w);
-    margin: 0 calc((100% - var(--w)) / 2);
+    margin: 35px calc((100% - var(--w)) / 2);
     margin-bottom: 45px;
 }
 
@@ -33,12 +34,14 @@
 }
 
 .start > h1 {
-    font-family: sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
     line-height: 125%;
     color: #FFFFFF;
+    text-decoration: none;
+    margin: 0;
 }
 
 .links {
@@ -50,7 +53,7 @@
 }
 
 .links > a {
-    font-family: sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 125%;
@@ -58,6 +61,18 @@
     color: #FFFFFF;
     text-align: right;
     text-decoration: none;
+}
+
+.burger {
+    margin-right: 15px;
+}
+
+.burger .fa {
+    background-color: #74C69D;
+    border: 0;
+    font-size: 30px;
+    cursor: pointer;
+    color: #FFFFFF;
 }
 
 .top .hero {
@@ -72,44 +87,268 @@
 }
 
 .left-text > h3 {
-    font-family: sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 125%;
     letter-spacing: 5px;
     color: #FFFFFF;
+    margin: 0;
 }
 
 .left-text > h2 {
-    font-family: sans-serif;
+    font-family: 'Crimson Text';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 125%;
     color: #FFFFFF;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .left-text > p {
-    font-family: sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 125%;
     color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 25px;
 }
 
 .hero .btn {
-    color: var(--bg-white);
+    background-color: #FFFFFF;
     display: inline-block;
     padding: 0.5em 2em;
-    font-family: sans-serif;
+    font-family: 'Work Sans', sans-serif;
     text-decoration: none;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 20px;
     text-align: center;
     cursor: pointer;
     border: 0;
     border-radius: 5px;
-    margin-top: 10px;
+    margin: 0;
+}
+
+.btn {
+    margin: 0;
+}
+
+.white-block {
+    background-color: #FFFFFF;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    --w: 411px;
+    width: var(--w);
+    margin: 0 calc((100% - var(--w)) / 2);
+    margin-top: 60px;
+    margin-bottom: 55px;
+}
+
+.middle-text > h3 {
+    font-size: 16px;
+    line-height: 125%;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    letter-spacing: 5px;
+    color: #74C69D;
+    margin: 0;
+}
+
+.middle-text > h1 {
+    font-family: 'Crimson Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    color: #000000;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.middle-text > p {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+}
+
+.companies {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    --w: 1159px;
+    width: var(--w);
+    margin: 0 calc((100% - var(--w)) / 2);
+    margin-bottom: 55px;
+    justify-content: space-between;
+}
+
+.learn-more .black-btn {
+    background-color: #212529;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 0.7em 1.5em 0.5em 1.5em;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 60px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    position: relative;
+    --w: 1180px;
+    width: var(--w);
+    margin: 0 calc((100% - var(--w)) / 2);
+}
+
+.icons {
+    font-size: 18px;
+}
+
+.icons .fa {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.rights {
+    margin-top: 51px;
+    margin-bottom: 49px;
+}
+
+.rights > p {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+@media (min-width: 376px) {
+    .burger {
+        display: none;
+    }
+}
+
+@media (max-width: 375px) {
+    .navigation {
+        --w: 335px;
+        margin: 17px 20px 32px 20px;
+    }
+    .start > h1 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .start > img {
+        width: 50px;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .top {
+        margin-bottom: 40px;
+    }
+
+    .top .hero {
+        --w: 335px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .hero .photo > img{
+        width: 335px;
+    }
+
+    .left-text {
+        margin-top: 30px;
+    }
+
+    .left-text > h2 {
+        font-size: 28px;
+    }
+    
+    .middle-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        --w: 335px;
+        width: var(--w);
+        margin: 24px 20px 55px 20px;
+    }
+    
+    .middle-text > h1 {
+        font-size: 24px;
+    }
+    
+    .companies {
+        flex-direction: column;
+        --w: 335px;
+        margin: 0px 20px 55px 20px;
+        gap: 50px;
+    }
+
+    .learn-more .black-btn {
+        margin-bottom: 100px;
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        --w: 335px;
+    }
+
+    .rights {
+        margin-top: 20px;
+        margin-bottom: 31px;
+    }
+    
+    .rights > p {
+        font-family: 'Work Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 125%;
+        color: #FFFFFF;
+        margin: 0;
+    }
+
+    .icons {
+        margin-top: 31px;
+    }
+
 }

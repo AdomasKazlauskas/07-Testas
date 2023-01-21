@@ -4,7 +4,6 @@
 }
 
 .top {
-    background-color: #74C69D;
     height: 586px;
     width: 100%;
     align-items: center;
@@ -100,7 +99,7 @@
 }
 
 .hero .btn {
-    color: var(--bg-white);
+    background-color: #FFFFFF;
     display: inline-block;
     padding: 0.5em 2em;
     font-family: sans-serif;
@@ -112,4 +111,120 @@
     border: 0;
     border-radius: 5px;
     margin-top: 10px;
+}
+
+.white-block {
+    background-color: #FFFFFF;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    --w: 411px;
+    width: var(--w);
+    margin: 0 calc((100% - var(--w)) / 2);
+    margin-top: 60px;
+    margin-bottom: 55px;
+}
+
+.middle-text > h3 {
+    font-size: 16px;
+    line-height: 125%;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-style: normal;
+    letter-spacing: 5px;
+    color: #74C69D;
+    margin: 0;
+}
+
+.middle-text > h1 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    color: #000000;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.middle-text > p {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+}
+
+.companies {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    --w: 1159px;
+    width: var(--w);
+    margin: 0 calc((100% - var(--w)) / 2);
+    margin-bottom: 55px;
+    justify-content: space-between;
+}
+
+.learn-more .black-btn {
+    background-color: #212529;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 0.5em 2em;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1em;
+    text-align: center;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 60px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    position: relative;
+    --w: 1180px;
+    width: var(--w);
+    margin: 0 calc((100% - var(--w)) / 2);
+}
+
+.icons {
+    font-size: 18px;
+}
+
+.fa {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.rights {
+    margin-top: 51px;
+    margin-bottom: 49px;
+}
+
+.rights > p {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    color: #FFFFFF;
+    margin: 0;
 }

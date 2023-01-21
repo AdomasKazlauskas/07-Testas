@@ -1,0 +1,115 @@
+.page {
+    margin: 0;
+    background-color: #74C69D;
+}
+
+.top {
+    background-color: #74C69D;
+    height: 586px;
+    width: 100%;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    gap: 654px;
+    position: relative;
+    --w: 1175px;
+    width: var(--w);
+    margin: 0 calc((100% - var(--w)) / 2);
+    margin-bottom: 45px;
+}
+
+.start {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 18px;
+}
+
+.start > h1 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 125%;
+    color: #FFFFFF;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 30px;
+}
+
+.links > a {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    font-style: normal;
+    color: #FFFFFF;
+    text-align: right;
+    text-decoration: none;
+}
+
+.top .hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 120px;
+    --w: 1180px;
+    width: var(--w);
+    margin: 0 calc((100% - var(--w)) / 2);
+}
+
+.left-text > h3 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+}
+
+.left-text > h2 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    color: #FFFFFF;
+}
+
+.left-text > p {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.hero .btn {
+    color: var(--bg-white);
+    display: inline-block;
+    padding: 0.5em 2em;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1em;
+    text-align: center;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 10px;
+}

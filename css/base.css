@@ -21,7 +21,7 @@
     position: relative;
     --w: 1175px;
     width: var(--w);
-    margin: 0 calc((100% - var(--w)) / 2);
+    margin: 35px calc((100% - var(--w)) / 2);
     margin-bottom: 45px;
 }
 
@@ -41,6 +41,7 @@
     line-height: 125%;
     color: #FFFFFF;
     text-decoration: none;
+    margin: 0;
 }
 
 .links {
@@ -112,7 +113,7 @@
     font-family: 'Work Sans', sans-serif;
     text-decoration: none;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 20px;
     text-align: center;
     cursor: pointer;
     border: 0;
@@ -238,4 +239,111 @@
     line-height: 125%;
     color: #FFFFFF;
     margin: 0;
+}
+
+@media (max-width: 1199px) {
+    
+}
+
+@media (max-width: 991px) {
+    
+}
+
+@media (max-width: 767px) {
+    
+}
+
+@media (max-width: 576px) {
+    
+}
+
+@media (max-width: 375px) {
+    .navigation {
+        --w: 335px;
+        width: var(--w);
+        margin: 17px 20px 32px 20px;
+    }
+    .start > h1 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .start > img {
+        width: 50px;
+    }
+
+    .top {
+        margin-bottom: 40px;
+    }
+
+    .top .hero {
+        --w: 335px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .hero .photo > img{
+        width: 335px;
+    }
+
+    .left-text {
+        margin-top: 30px;
+    }
+
+    .left-text > h2 {
+        font-size: 28px;
+    }
+    
+    .middle-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        --w: 335px;
+        width: var(--w);
+        margin: 24px 20px 55px 20px;
+    }
+    
+    .middle-text > h1 {
+        font-size: 24px;
+    }
+    
+    .companies {
+        flex-direction: column;
+        --w: 335px;
+        margin: 0px 20px 55px 20px;
+        gap: 50px;
+    }
+
+    .learn-more .black-btn {
+        margin-bottom: 100px;
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        --w: 335px;
+    }
+
+    .rights {
+        margin-top: 20px;
+        margin-bottom: 31px;
+    }
+    
+    .rights > p {
+        font-family: 'Work Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 125%;
+        color: #FFFFFF;
+        margin: 0;
+    }
+
+    .icons {
+        margin-top: 31px;
+    }
+
 }

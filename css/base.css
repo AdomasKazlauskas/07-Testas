@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
 .page {
     margin: 0;
     background-color: #74C69D;
@@ -15,7 +18,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 0;
-    gap: 654px;
     position: relative;
     --w: 1175px;
     width: var(--w);
@@ -32,12 +34,13 @@
 }
 
 .start > h1 {
-    font-family: sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
     line-height: 125%;
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .links {
@@ -49,7 +52,7 @@
 }
 
 .links > a {
-    font-family: sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 125%;
@@ -71,38 +74,42 @@
 }
 
 .left-text > h3 {
-    font-family: sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 125%;
     letter-spacing: 5px;
     color: #FFFFFF;
+    margin: 0;
 }
 
 .left-text > h2 {
-    font-family: sans-serif;
+    font-family: 'Crimson Text';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 125%;
     color: #FFFFFF;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .left-text > p {
-    font-family: sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 125%;
     color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 25px;
 }
 
 .hero .btn {
     background-color: #FFFFFF;
     display: inline-block;
     padding: 0.5em 2em;
-    font-family: sans-serif;
+    font-family: 'Work Sans', sans-serif;
     text-decoration: none;
     font-weight: 500;
     font-size: 1em;
@@ -110,7 +117,11 @@
     cursor: pointer;
     border: 0;
     border-radius: 5px;
-    margin-top: 10px;
+    margin: 0;
+}
+
+.btn {
+    margin: 0;
 }
 
 .white-block {
@@ -136,7 +147,7 @@
     font-size: 16px;
     line-height: 125%;
     font-weight: 700;
-    font-family: sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-style: normal;
     letter-spacing: 5px;
     color: #74C69D;
@@ -144,7 +155,7 @@
 }
 
 .middle-text > h1 {
-    font-family: sans-serif;
+    font-family: 'Crimson Text';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -155,7 +166,7 @@
 }
 
 .middle-text > p {
-    font-family: sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -180,11 +191,11 @@
     background-color: #212529;
     color: #FFFFFF;
     display: inline-block;
-    padding: 0.5em 2em;
-    font-family: sans-serif;
+    padding: 0.7em 1.5em 0.5em 1.5em;
+    font-family: 'Work Sans', sans-serif;
     text-decoration: none;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 20px;
     text-align: center;
     cursor: pointer;
     border: 0;
@@ -220,7 +231,7 @@
 }
 
 .rights > p {
-    font-family: sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
